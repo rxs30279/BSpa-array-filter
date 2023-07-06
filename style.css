@@ -1,0 +1,120 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: inter;
+  background-color: white;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.isotope {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  height: 8vh;
+  background-color: white;
+  padding-left: 3vw;
+  color: #cbc9c9;
+  font-family: Inconsolata, monospace;
+  font-size: 23px;
+  font-weight: 400;
+  letter-spacing: 0.5px;
+  background: blue;
+}
+
+.navbar {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: #d9d9d9;
+  width: 100%;
+  height: 10vh;
+  padding-left: 3vw;
+}
+
+.navbar ul {
+  display: flex;
+  list-style-type: none;
+}
+.navbar ul a {
+  margin-right: 20px;
+  border-style: solid;
+  border-width: 0.1vh;
+  border-color: white;
+  color: white;
+  padding: 5px 15px;
+  text-decoration: none;
+  font-size: 14px;
+  font-family: Inconsolata, monospace;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-auto-rows: 200px;
+  grid-auto-flow: dense; /* Allow items to fill in empty spaces */
+  height: 1600px;
+}
+
+.grid-container .one {
+  grid-row: 1/3;
+  background-image: url("https://uploads-ssl.webflow.com/53b6c842ce70bd047992c9fb/55ea3127446aa36155cf7387_01.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.grid-container .two {
+  background-image: url("https://uploads-ssl.webflow.com/53b6c842ce70bd047992c9fb/55ea3127b38b97ab25a9282b_02.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.grid-container .three {
+  background-image: url("https://uploads-ssl.webflow.com/53b6c842ce70bd047992c9fb/55ea3127b38b97ab25a9282c_03.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.grid-container .four {
+  background-image: url("https://uploads-ssl.webflow.com/53b6c842ce70bd047992c9fb/55ea3127c173b7605503ad1a_04.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.grid-container .five {
+  background-image: url("https://uploads-ssl.webflow.com/53b6c842ce70bd047992c9fb/55eaad8f5402dd091adf3778_5-01.jpg");
+  background-size: cover;
+  background-position: center;
+}
+.grid-container .six {
+  background-image: url("https://uploads-ssl.webflow.com/53b6c842ce70bd047992c9fb/55ea3127b38b97ab25a9282d_06.jpg");
+  background-size: cover;
+  background-position: center;
+}
+.grid-container .seven {
+  background-image: url("https://uploads-ssl.webflow.com/53b6c842ce70bd047992c9fb/55ea3128446aa36155cf7388_07.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.grid-container .eight {
+  background-image: url("https://uploads-ssl.webflow.com/53b6c842ce70bd047992c9fb/55ea3128b38b97ab25a9282e_08.jpg");
+  background-size: cover;
+  background-position: center;
+}
+.grid-container .nine {
+  background-image: url("https://uploads-ssl.webflow.com/53b6c842ce70bd047992c9fb/55ea3128c173b7605503ad1c_09.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.grid-container .ten {
+  background-image: url("https://uploads-ssl.webflow.com/53b6c842ce70bd047992c9fb/55ea3128b38b97ab25a9282f_10.jpg");
+  background-size: cover;
+  background-position: center;
+}
+]=-poa\
